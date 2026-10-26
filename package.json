@@ -1,0 +1,7 @@
+{
+  "name": "zen-sidebar-double-click",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "test": "node --test", "check": "node --check sidebar-double-click.uc.js" },
+  "engines": { "node": ">=20" }
+}

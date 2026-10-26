@@ -1,0 +1,20 @@
+{
+  "id": "zen-sidebar-double-click",
+  "name": "Sidebar Double Click",
+  "description": "Double-click empty sidebar space to maximize or restore your Zen window.",
+  "author": "SHIRO-Suit",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SHIRO-Suit/zen-sidebar-double-click",
+  "readme": "https://raw.githubusercontent.com/SHIRO-Suit/zen-sidebar-double-click/main/README.md",
+  "image": "https://raw.githubusercontent.com/SHIRO-Suit/zen-sidebar-double-click/main/docs/cover.svg",
+  "createdAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "fork": ["zen"],
+  "tags": ["sidebar", "window", "productivity"],
+  "ai": "yes",
+  "scripts": {
+    "sidebar-double-click.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="36" fill="#101c26"/>
+  <text x="80" y="120" fill="#e9f5ee" font-family="sans-serif" font-size="52" font-weight="700">Sidebar Double Click</text>
+  <text x="80" y="178" fill="#a3c2bc" font-family="sans-serif" font-size="27">A familiar window gesture, in your Zen sidebar.</text>
+  <rect x="80" y="240" width="1040" height="450" rx="22" fill="#253b43"/>
+  <rect x="290" y="258" width="810" height="414" rx="14" fill="#e9f5ee"/>
+  <rect x="102" y="280" width="166" height="42" rx="10" fill="#49635f"/>
+  <rect x="102" y="334" width="166" height="42" rx="10" fill="#38504f"/>
+  <circle cx="182" cy="500" r="44" fill="none" stroke="#b9f0c6" stroke-width="3"/>
+  <circle cx="182" cy="500" r="28" fill="none" stroke="#b9f0c6" stroke-width="2"/>
+  <path d="m178 489 0 37 10-10 8 16 7-4-8-16 15-1Z" fill="#fff"/>
+  <text x="416" y="435" fill="#203832" font-family="sans-serif" font-size="42" font-weight="700">Double click. Maximize.</text>
+  <text x="416" y="489" fill="#45645b" font-family="sans-serif" font-size="28">Double click again. Restore.</text>
+  <text x="80" y="752" fill="#a3c2bc" font-family="sans-serif" font-size="23">Sine mod for Zen Browser · SHIRO-Suit · Illustration</text>
+</svg>
