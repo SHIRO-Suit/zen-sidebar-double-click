@@ -31,11 +31,15 @@ leur comportement habituel. Le glisser de fenêtre reste géré par Zen.
 
 ## Compatibility and validation
 
-Initial target: Zen **1.23.4b on Windows**, using the sidebar structure inspected
-in that build. Automated tests cover window-state transitions, native double-click
-coexistence, excluded events and cleanup. They use a mocked browser environment;
-they do **not** establish end-to-end compatibility with Zen or other Sine mods.
-Real-browser acceptance checks are listed in [TESTING.md](TESTING.md).
+Verified on Zen **1.23.4b on Windows** in a disposable profile: the script loads,
+and both WebDriver pointer actions and native Windows double clicks on the empty
+tab area maximize the window and restore it again. The script was loaded through
+a privileged test harness; installation through Sine and compatibility with other
+mods still need acceptance testing.
+
+The 18 automated unit tests cover window-state transitions, native double-click
+coexistence, excluded events, metadata and cleanup. Remaining real-browser checks
+are listed in [TESTING.md](TESTING.md).
 
 The mod deliberately recognizes known sidebar background containers only. If a
 theme replaces those containers, its blank area may need explicit support.
