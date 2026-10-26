@@ -45,6 +45,7 @@ test('empty sidebar double click maximizes, then restores', () => {
   const app = setup();
   app.fire(); app.flush();
   assert.deepEqual(app.win.calls, ['maximize']);
+  delete app.event.defaultPrevented;
   app.fire(); app.flush();
   assert.deepEqual(app.win.calls, ['maximize', 'restore']);
 });
@@ -94,6 +95,7 @@ test('ignores fullscreen, customization, foreign documents, and closed windows',
 test('reload cleans up pending actions and unload removes listeners', () => {
   const app = setup(); app.fire(); app.reload(); app.flush();
   assert.deepEqual(app.win.calls, []);
+  delete app.event.defaultPrevented;
   app.fire(); app.flush(); assert.deepEqual(app.win.calls, ['maximize']);
   app.handlers.get('unload')();
   assert.equal(app.handlers.size, 0);
